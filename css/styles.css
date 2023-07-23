@@ -1,0 +1,106 @@
+h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
+
+h2 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+
+h3 {
+  font-family: Roboto;
+  font-weight: medium;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+
+body {
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 12px;
+  letter-spacing: 2%;
+  line-height: 24px;
+}
+
+small {
+  font-family: Roboto;
+  font-weight: regular;
+  size: 12px;
+  line-height: 14px;
+  letter-spacing: 4%;
+}
+
+medium {
+  font-family: Roboto;
+  font-weight: medium;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.button-text {
+  font-family: Roboto;
+  font-weight: medium;
+  font-size: 16px;
+  letter-spacing: 4%;
+  line-height: 124px;
+}
+
+.link {
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 12px;
+  letter-spacing: 4%;
+  line-height: 16px;
+  text-decoration: underline;
+}
+.link:hover {
+  color: tomato;
+}
+
+.primary-brand {
+    <!-- IRIS -->
+  color: #4d5ae5;
+}
+
+.pressed-state {
+    <!-- OCEAN -->
+  color: #404bbf;
+}
+.dark {
+    <!-- NAVY BLUE -->
+  color: #2e2f42;
+}
+.success {
+  color: #31d0aa;
+}
+.text {
+  color: #434455;
+}
+.subtle-text {
+  color: #8e8f99;
+}
+.accent {
+  color: #e7e9fc;
+}
+.light {
+  color: #f4f4fd;
+}
+.modal-overlay {
+  color: #2e2f42;
+}
+.hero-background {
+  color: #2e2f42;
+}
+.white-background {
+  color: #ffffff;
+}
+.modal-background {
+  color: #fcfcfc;
+}
