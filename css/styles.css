@@ -1,55 +1,15 @@
-h1 {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 60px;
-}
-
-h2 {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 36px;
-  letter-spacing: 2%;
-}
-
-h3 {
-  font-family: Roboto;
-  font-weight: medium;
-  font-size: 20px;
-  letter-spacing: 2%;
-}
-
-body {
-  font-family: Roboto;
-  font-weight: regular;
-  font-size: 12px;
-  letter-spacing: 2%;
-  line-height: 24px;
-}
-
-small {
-  font-family: Roboto;
-  font-weight: regular;
-  size: 12px;
-  line-height: 14px;
-  letter-spacing: 4%;
-}
-
-medium {
-  font-family: Roboto;
-  font-weight: medium;
-  size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-}
-
-.button-text {
+.service button {
   font-family: Roboto;
   font-weight: medium;
   font-size: 16px;
   letter-spacing: 4%;
-  line-height: 124px;
+  line-height: 24px;
+  color: #4d5ae5;
+}
+
+.service button:hover,
+.service button:focus {
+  background-color: #e7e9fc;
 }
 
 .link {
@@ -58,49 +18,113 @@ medium {
   font-size: 12px;
   letter-spacing: 4%;
   line-height: 16px;
-  text-decoration: underline;
+  text-decoration: none;
 }
-.link:hover {
-  color: tomato;
-}
-
-.primary-brand {
-    <!-- IRIS -->
-  color: #4d5ae5;
+.link:hover,
+.link:focus {
+  background-color: #404bbf;
 }
 
-.pressed-state {
-    <!-- OCEAN -->
-  color: #404bbf;
-}
-.dark {
-    <!-- NAVY BLUE -->
-  color: #2e2f42;
-}
-.success {
-  color: #31d0aa;
-}
 .text {
+  font-family: Roboto;
+  font-weight: medium;
   color: #434455;
 }
-.subtle-text {
-  color: #8e8f99;
+
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 3%;
+  line-height: 21px;
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+  text-decoration: none;
 }
-.accent {
-  color: #e7e9fc;
+.logo-secondpart {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 3%;
+  line-height: 21px;
+  color: #2e2f42;
+  background-color: #e7e9fc;
+  text-decoration: none;
 }
-.light {
-  color: #f4f4fd;
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-.modal-overlay {
+
+h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  color: white;
+  line-height: 60px;
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+h2 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+  text-align: center;
+}
+
+h3 {
+  font-family: Roboto;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+  text-align: center;
+}
+
+head {
   color: #2e2f42;
 }
-.hero-background {
-  color: #2e2f42;
+
+body {
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+  color: #434455;
+  text-align: center;
 }
-.white-background {
-  color: #ffffff;
+
+body-small {
+  font-family: Roboto;
+  font-weight: regular;
+  size: 12px;
+  line-height: 14px;
+  letter-spacing: 4%;
 }
-.modal-background {
-  color: #fcfcfc;
+
+body-medium {
+  font-family: Roboto;
+  font-weight: medium;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+footer {
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+  color: #2f2f42;
+  background-color: #2e2f42;
 }
