@@ -13,6 +13,7 @@
 --color-Dairy:#FCFCFC;
 --font-primary: "Roboto", sans-serif;
 --font-secondary: "Raleway", sans-serif;
+--background-color:#FFFFFF;
 }
 
 .service {
@@ -20,7 +21,7 @@
 }
 
 .service button {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
@@ -35,7 +36,7 @@
 }
 
 .navigation-link {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.04em;
@@ -50,7 +51,7 @@
 }
 
 .contact-link {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.04em;
@@ -65,13 +66,13 @@
 }
 
 .text {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: medium;
   color: #434455;
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -81,7 +82,7 @@
   text-decoration: none;
 }
 .logo2 {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -92,7 +93,7 @@
 }
 
 .logo3 {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -102,7 +103,7 @@
   text-decoration: none;
 }
 .logo-secondpart {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -114,22 +115,22 @@
 
 ul {
   list-style-type: none;
-  padding: 0;
+  
   margin: 0;
 }
 
 .service-title {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 0.02em;
   color: #fff;
   line-height: 60px;
-  text-align: center;
+  
 }
 
 h2 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 40px;
@@ -138,7 +139,7 @@ h2 {
 }
 
 h3 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: medium;
   font-size: 20px;
   line-height: 24px;
@@ -151,7 +152,7 @@ head {
 }
 
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -160,7 +161,7 @@ body {
 }
 
 body-small {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: regular;
   size: 12px;
   line-height: 14px;
@@ -168,7 +169,7 @@ body-small {
 }
 
 body-medium {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: medium;
   size: 16px;
   line-height: 24px;
@@ -176,7 +177,7 @@ body-medium {
 }
 
 footer {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: regular;
   font-size: 16px;
   letter-spacing: 0.02em;
