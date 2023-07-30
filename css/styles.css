@@ -1,23 +1,23 @@
 :root {
 --color-IRIS: #4D5AE5;
 --color-OCEAN:#404BBF;
---color-Navy blue:#2E2F42;
+--color-Navyblue:#2E2F42;
 --color-GREEN:#31D0AA;
 --color-SLATE:#434455;
 --color-LIGHT SLATE:#8E8F99;
 --color-CORNFLOWER:#E7E9FC;
 --color-CLOUD:#F4F4FD;
---color-NAVY-BLUE-Modal:#2E2F42;
 --color-GREY:#2E2F42;
 --color-WHITE:#FFFFFF;
 --color-Dairy:#FCFCFC;
 --background-color:#FFFFFF;
+--logo-color: #4D5AE5
 --font-primary: "Roboto", sans-serif;
 --font-secondary: "Raleway", sans-serif;
 }
 
 .service {
-  background-color: #2e2f42;
+  background-color: var(--color-Navyblue);
 }
 
 .service button {
@@ -26,23 +26,25 @@
   font-size: 16px;
   letter-spacing: 0.04em;
   line-height: 24px;
-  background-color: #4d5ae5;
+  background-color: var(--color-IRIS);
   color: #ffffff;
 }
 
 .service button:hover,
 .service button:focus {
-  background-color: #404bbf;
+  background-color: var(--color-OCEAM);
 }
 
 .navigation-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0.04em;
-  line-height: 16px;
+  line-height: 1.5;
   text-decoration: none;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
+  color: var(--color-Navyblue);
+  
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -73,33 +75,33 @@
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 18px;
   letter-spacing: 0.03em;
-  line-height: 21px;
-  color: #4d5ae5;
-
+  line-height: 1.17;
+  color: var(--logo-color);
+  text-transform: uppercase;
   text-decoration: none;
 }
 .logo2 {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 18px;
   letter-spacing: 0.03em;
-  line-height: 21px;
-  color: #2e2f42;
-
+  line-height: 1.17;
+  color: var(--color-Navyblue);
+  text-transform: uppercase;
   text-decoration: none;
 }
 
 .logo3 {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 18px;
   letter-spacing: 0.03em;
-  line-height: 21px;
+  line-height: 1.17;
   color: #ffffff;
-
+  text-transform: uppercase;
   text-decoration: none;
 }
 .logo-secondpart {
@@ -108,7 +110,7 @@
   font-size: 18px;
   letter-spacing: 0.03em;
   line-height: 21px;
-  color: #2e2f42;
+  color: var(--color-Navyblue);
   background-color: #e7e9fc;
   text-decoration: none;
 }
@@ -119,13 +121,21 @@ ul {
   margin: 0;
 }
 
+.list {
+  list-style: none;
+  
+  margin: 0;
+}
+
 .service-title {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 0.02em;
+  line-height: 1.07;
   color: #fff;
   line-height: 60px;
+   text-align: center;
   
 }
 
@@ -135,7 +145,7 @@ h2 {
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-Navyblue);
 }
 
 h3 {
@@ -144,11 +154,11 @@ h3 {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-Navyblue);
 }
 
 head {
-  color: #2e2f42;
+  color: var(--color-Navyblue);
 }
 
 body {
@@ -160,30 +170,17 @@ body {
   background-color: var(--background-color);
 }
 
-body-small {
-  font-family: "Roboto", sans-serif;
-  font-weight: regular;
-  size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.04em;
-}
 
-body-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: medium;
-  size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-}
 
 footer {
   font-family: "Roboto", sans-serif;
-  font-weight: regular;
+  font-weight: 800;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 24px;
   color: #2f2f42;
-  background-color: #2e2f42;
+  line-height: 1.17;
+  background-color: var(--color-Navyblue);
 }
 
 address {
