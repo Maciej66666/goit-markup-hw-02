@@ -1,7 +1,7 @@
 :root {
   --color-IRIS: #4d5ae5;
   --color-OCEAN: #404bbf;
-  --color-Navyblue: #2e2f42;
+  --color-NAVYBLUE: #2e2f42;
   --color-GREEN: #31d0aa;
   --color-SLATE: #434455;
   --color-LIGHT-SLATE: #8e8f99;
@@ -10,13 +10,12 @@
   --color-GREY: #2e2f42;
   --color-WHITE: #ffffff;
   --color-Dairy: #fcfcfc;
-  --background-color: #ffffff;
   --font-primary: 'Roboto', sans-serif;
   --font-secondary: 'Raleway', sans-serif;
 }
 
 .service {
-  background-color: var(--color-Navyblue);
+  background-color: var(--color-NAVYBLUE);
 }
 
 .service button {
@@ -63,11 +62,11 @@
   line-height: 1.5;
   text-decoration: none;
   letter-spacing: 0.02em;
-  color: var(--color-Navyblue);
+  color: var(--color-NAVYBLUE);
 }
 .navigation-link:hover,
 .navigation-link:focus {
-  color: #404bbf;
+  color: var(--color-OCEAN);
 }
 
 .contact-link {
@@ -81,7 +80,7 @@
 }
 .contact-link:hover,
 .contact-link:focus {
-  color: #404bbf;
+  color: var(--color-OCEAN);
 }
 
 .text {
@@ -101,32 +100,34 @@
   text-decoration: none;
 }
 .logo2 {
-  color: var(--color-Navyblue);
+  color: var(--color-NAVYBLUE);
 }
 
 .logo3 {
-  color: var(--color-WHITE);
+  color: var(--color-CLOUD);
 }
 .logo-secondpart {
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 18px;
   letter-spacing: 0.03em;
   line-height: 21px;
-  color: var(--color-Navyblue);
-  background-color: #e7e9fc;
+  color: var(--color-NAVYBLUE);
+  background-color: var(--color-CORNFLOWER);
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
-
   margin: 0;
+}
+
+.ourteam {
+  background-color: var(--color-WHITE);
 }
 
 .list {
   list-style: none;
-
   margin: 0;
 }
 
@@ -136,8 +137,8 @@ ul {
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 1.07;
-  color: #fff;
-  line-height: 60px;
+  color: var(--color-WHITE);
+  background-color: var(--color-NAVYBLUE);
   text-align: center;
 }
 
@@ -147,7 +148,7 @@ h2 {
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.02em;
-  color: var(--color-Navyblue);
+  color: var(--color-NAVYBLUE);
 }
 
 .aims {
@@ -156,15 +157,19 @@ h2 {
 
 .middle-headers {
   font-family: 'Roboto', sans-serif;
-  font-weight: medium;
+  font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--color-Navyblue);
+  color: var(--color-NAVYBLUE);
+}
+
+.middlesection {
+  background-color: var(--color-CLOUD);
 }
 
 head {
-  color: var(--color-Navyblue);
+  color: var(--color-NAVYBLUE);
 }
 
 body {
@@ -173,7 +178,7 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: var(--color-SLATE);
-  background-color: var(--background-color);
+  background-color: var(--color-WHITE);
 }
 
 footer {
@@ -183,12 +188,10 @@ footer {
   letter-spacing: 0.02em;
   line-height: 24px;
   line-height: 1.17;
-  background-color: var(--color-Navyblue);
+  background-color: var(--color-NAVYBLUE);
   color: var(--color-CLOUD);
 }
 
 address {
   font-style: normal;
 }
-
-/*#  end */
