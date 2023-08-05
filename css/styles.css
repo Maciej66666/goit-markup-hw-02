@@ -11,7 +11,6 @@
   --color-WHITE: #ffffff;
   --color-Dairy: #fcfcfc;
   --background-color: #ffffff;
-  --logo-color: #4d5ae5;
   --font-primary: 'Roboto', sans-serif;
   --font-secondary: 'Raleway', sans-serif;
 }
@@ -28,11 +27,12 @@
   line-height: 24px;
   color: var(--color-WHITE);
   background-color: var(--color-IRIS);
+  cursor: pointer;
 }
 
 .service button:hover,
 .service button:focus {
-  background-color: var(--color-OCEAM);
+  background-color: var(--color-OCEAN);
   color: var(--color-WHITE);
 }
 
@@ -46,6 +46,7 @@
   color: var(--color-IRIS);
   border: var(--color-CORNFLOWER);
   border-width: 1px;
+  cursor: pointer;
 }
 
 .portfolio button:hover,
@@ -67,13 +68,12 @@
 .navigation-link:hover,
 .navigation-link:focus {
   color: #404bbf;
-  text-decoration: underline;
 }
 
 .contact-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 16px;
   text-decoration: none;
@@ -82,12 +82,11 @@
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
-  text-decoration: underline;
 }
 
 .text {
   font-family: 'Roboto', sans-serif;
-  font-weight: medium;
+  font-weight: 400;
   color: var(--color-SLATE);
 }
 
@@ -102,25 +101,11 @@
   text-decoration: none;
 }
 .logo2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  line-height: 1.17;
   color: var(--color-Navyblue);
-  text-transform: uppercase;
-  text-decoration: none;
 }
 
 .logo3 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  line-height: 1.17;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
+  color: var(--color-WHITE);
 }
 .logo-secondpart {
   font-family: 'Raleway', sans-serif;
@@ -147,7 +132,7 @@ ul {
 
 .service-title {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 1.07;
@@ -169,7 +154,7 @@ h2 {
   text-align: center;
 }
 
-h3 {
+.middle-headers {
   font-family: 'Roboto', sans-serif;
   font-weight: medium;
   font-size: 20px;
